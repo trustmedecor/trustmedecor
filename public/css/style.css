@@ -1,0 +1,333 @@
+/* BODY */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    background-color: #f6e8df;
+}
+
+
+/* NAVIGATION BAR  */
+
+.navbar {
+    font-family: "Karla", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-link {
+    color: #3e3b6f !important;
+}
+
+.logo {
+    height: 72px !important;
+}
+
+.navbar-toggler {
+    border: none;
+    border-radius: 0;
+}
+
+
+/* HOME-PAGE */
+
+
+/* HERO-SECTION */
+
+.hero-info h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700 !important;
+}
+
+.hero-info {
+    color: #3e3b6f;
+}
+
+.hero-btn,
+.experience {
+    color: #3e3b6f !important;
+}
+
+.hero-btn {
+    font-family: "Nunito", sans-serif !important;
+}
+
+.hero-btn:hover {
+    color: white !important;
+    background-color: #3e3b6f !important;
+}
+
+.hero-info h4,
+.experience {
+    font-family: "Karla", sans-serif;
+}
+
+p,
+li,
+button,
+td,
+h4,
+.modal-title {
+    font-family: "Nunito", sans-serif !important;
+    font-weight: 600 !important;
+}
+
+
+/* .hero-info {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 500 !important;
+} */
+
+.home-img {
+    height: 85vh;
+}
+
+@media only screen and (max-width: 600px) {
+    h1,
+    h4,
+    p {
+        font-size: 24px !important;
+    }
+    button {
+        font-size: 16px !important;
+    }
+    .hero-info {
+        font-size: 14px !important;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    .home {
+        height: 30vh;
+        align-self: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .hero {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    /* Landing page */
+    .landing {
+        height: 45vh;
+    }
+}
+
+
+/* EXPERIENCE-SECTION-START */
+
+.experience {
+    font-weight: 600;
+}
+
+.card-body h5,
+.card-body h6 {
+    background-color: white !important;
+}
+
+.box li {
+    background-color: white !important;
+}
+
+.row a:hover {
+    text-decoration: none;
+    color: #3e3b6f;
+}
+
+.row a {
+    text-decoration: none;
+    color: #3e3b6f;
+}
+
+.product-card {
+    width: 18rem;
+    overflow: hidden;
+    font-family: "Karla", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body {
+    transition: 250ms ease;
+    background-color: white !important;
+}
+
+li {
+    text-overflow: ellipsis !important;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    transition: 250ms ease;
+    background-color: white !important;
+}
+
+.product-card:hover .card-body {
+    transform: translateY(-100%);
+    background-color: white !important;
+}
+
+.product-card:hover .box {
+    opacity: 1;
+    transform: translateY(-11%);
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden;
+    background-color: white !important;
+}
+
+.product-card:hover li {
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+}
+
+.card-img img {
+    width: 18rem;
+}
+
+.special-img {
+    object-fit: cover;
+    height: 215px !important;
+}
+
+@media only screen and (max-width: 450px) {
+    .row a:hover {
+        text-decoration: none;
+        color: black;
+    }
+    .row a {
+        text-decoration: none;
+        color: black;
+    }
+    .last-row {
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        align-content: center !important;
+    }
+    .last-coloumn {
+        display: flex;
+        align-items: center !important;
+        align-content: center !important;
+    }
+}
+
+
+/*  EXPERIENCE-SECTION-END */
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 30px;
+    font-family: "Nunito", sans-serif;
+}
+
+.last {
+    padding-top: 23px !important;
+    font-weight: 1000px;
+}
+
+.footer-logo {
+    width: 6rem;
+}
+
+@media only screen and (max-width: 450px) {
+    footer h5,
+    p,
+    li {
+        font-size: 16px !important;
+    }
+}
+
+.quick-links li a {
+    background-color: #f6e8df !important;
+}
+
+.quick-links li {
+    list-style: none;
+}
+
+
+/*SERVICE - SECTION - START*/
+
+
+/* .service-container {
+    background-color: #f6e8df !important;
+} */
+
+.service-description {
+    color: #3e3b6f;
+}
+
+.service-description h4 {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 700;
+}
+
+.service-description h4,
+.service-description h5,
+.service-description h3 {
+    font-family: "Nunito", sans-serif;
+}
+
+.tick {
+    color: #90ee90;
+}
+
+@media only screen and (max-width: 450px) {
+    .service-description {
+        margin-top: 20px;
+    }
+    .service-description ul {
+        font-size: 15px;
+        padding-left: 10px;
+        list-style-type: none;
+    }
+    .static-text {
+        flex-flow: column-reverse;
+    }
+    .need2know {
+        margin-bottom: 25px !important;
+    }
+}
+
+.service-description li,
+.policyandneed {
+    white-space: pre-line;
+}
+
+table tr td {
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fa-info {
+    color: #2196f3;
+}
+
+#mainModal,
+#exampleModal {
+    font-family: "Nunito", sans-serif;
+    color: #3e3b6f;
+    background: none;
+}
+
+.modal-dialog {
+    border-radius: 5px;
+}
+
+
+/*SERVICE - SECTION - END*/
+
+
+/*ORDER-SECTION-START   */

@@ -1,0 +1,27 @@
+{
+    "products": [{
+            "id": "1",
+            "title": "Birthday Special",
+            "img1": "Resources/1/1.jpg",
+            "img2": "resources/1/2.jpg",
+            "img3": "resources/1/2.jpg",
+            "price": 1200
+        },
+        {
+            "id": "2",
+            "title": "Birthday Special 2",
+            "img1": "Resources/2/1.jpg",
+            "img2": "resources/2/2.jpg",
+            "img3": "resources/2/3.jpg",
+            "price": 1500
+        },
+        {
+            "id": "3",
+            "title": "Birthday Special 3",
+            "img1": "Resources/3/1.jpg",
+            "img2": "resources/3/2.jpg",
+            "img3": "resources/3/3.jpg",
+            "price": 1800
+        }
+    ]
+}

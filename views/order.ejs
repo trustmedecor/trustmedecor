@@ -1,0 +1,51 @@
+<%- include("partials/header") %>
+    <div class="container-fluid">
+        <div class="row justify-content-center pt-4 pb-2">
+            <div class="col-10 col-lg-5">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 style="background:none;">Order Summary</h4>
+                    </div>
+
+                    <li class="list-group-item">
+                        <%= name %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= number %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= date %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= time %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= addressone %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= addresstwo %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= pincode %>
+                    </li>
+                    <li class="list-group-item">
+                        <%= occasion %>
+                    </li>
+
+
+                </div>
+                <div class="text-center pt-3">
+                    <%- button -%>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <%- include("partials/footer") %>
